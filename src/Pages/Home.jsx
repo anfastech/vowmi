@@ -24,7 +24,7 @@ const Home = () => {
 
   useEffect(() => {
     axios
-      .get("https://api.github.com/repos/AswinAsok/vow")
+      .get("https://api.github.com/repos/anfastech/vowmi")
       .then((response) => {
         // handle success
         setStars(response.data.stargazers_count)
@@ -48,7 +48,7 @@ const Home = () => {
       <div className={styles.main_container}>
         <div className={styles.navbar}>
           <div className={styles.navbar_container}>
-            <p className={styles.n_header}>vow.</p>
+            <p className={styles.n_header}>vowmi.</p>
             <p className={styles.n_text}>dose of daily affirmation</p>
           </div>
         </div>
@@ -60,7 +60,7 @@ const Home = () => {
               </div>
               <div className={styles.icon}>
                 <a
-                  href="https://github.com/AswinAsok/vow"
+                  href="https://github.com/anfastech/vowmi"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -75,14 +75,14 @@ const Home = () => {
             </div>
             <div className={styles.buttons_container}>
               <a
-                href="https://github.com/AswinAsok/vow"
+                href="https://github.com/anfastech/vowmi"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <button className={styles.star_button}>{stars} Stars</button>
               </a>
               <a
-                href="http://github.com/AswinAsok"
+                href="http://github.com/anfastech"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -95,15 +95,15 @@ const Home = () => {
           <p className={styles.n_text}>
             Made by{" "}
             <a
-              href="http://github.com/AswinAsok"
+              href="http://github.com/anfastech"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Aswin Asok
+              Mohammed Anfas K P
             </a>{" "}
-            with Code
+            with
           </p>
-          <p className={styles.n_text}>Midnight Projects#3</p>
+          <p className={styles.n_text}> Vite</p>
           <br />
         </div>
       </div>
