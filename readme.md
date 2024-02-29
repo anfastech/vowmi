@@ -1,4 +1,4 @@
-# Vow: Daily Dose of Affirmation
+# Vowmi: Daily Dose of Affirmation
 
 ## ✨ Features
 A simple app that displays a daily affirmation.
