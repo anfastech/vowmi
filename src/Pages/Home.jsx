@@ -99,7 +99,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Mohammed Anfas K P
+              Modifing by Mohammed Anfas K P, Credit Aswin Ashok
             </a>{" "}
             with
           </p>
