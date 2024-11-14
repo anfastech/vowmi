@@ -9,9 +9,7 @@ Minimal and clean user interface.
 If you find this app helpful, please consider giving it a star! ⭐️
 
 ## 🛠️ Technologies Used
-- HTML
-- CSS
-- JavaScript
+- React ( and other )
 
 ## 🖥️ How to Use
 Simply load the page to view the daily affirmation.
